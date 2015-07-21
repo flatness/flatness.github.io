@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper {
-    padding: 2em;
+    padding: 0.5em 2em;
     max-width: 30em;
     text-align: justify;
     margin: auto;
@@ -30,6 +30,8 @@ body {
 
 .logotype {
     font-family: 'Supermercado One', cursive;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
     font-size : 2em;
     text-align: center;
     margin: auto;
@@ -40,4 +42,14 @@ a {
     color: #000;
 }
 
+ul {
+    list-style: none;
+}
 
+.menu li {
+    display: inline;
+    padding: 0 1em;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+}
